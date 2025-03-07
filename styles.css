@@ -25,6 +25,17 @@ body {
   line-height: 1.6;
 }
 
+h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  color: var(--stone-900);
+}
+
 .container {
   width: 100%;
   max-width: 800px;
@@ -34,4 +45,40 @@ body {
   background-color: var(--white);
   border-radius: 15px;
   padding: 30px;
+}
+
+.recipe-image {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.description {
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.prep-time {
+  background-color: var(--rose-50);
+  padding: 30px;
+  border-radius: 10px;
+  margin: 0;
+  height: auto;
+}
+
+.prep-time > h2 {
+  color: var(--rose-800);
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-size: 1.5rem; /* Adjust as needed */
+  font-weight: 700; /* Bold weight */
+  line-height: 1.2; /* Slightly tighter line-height */
+}
+
+.prep-time ul li::marker {
+  color: var(--rose-800);
+}
+
+li {
+  margin-top: 10px;
+  padding-left: 20px;
 }
